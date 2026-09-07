@@ -25,8 +25,7 @@ main{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url('../imagens/frame-iphone.png') no-repeat center;
-    
+    background: url('../imagens/frame-iphone.png') no-repeat center;  
 }
 #home{
     position: absolute;
@@ -36,4 +35,25 @@ main{
     left: 21px;
     background: url('../imagens/home.png') no-repeat center;
     background-size: cover;
+}
+section#redes-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    gap: 6px;   
+}
+section#redes-social img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 10px;      
+}
+section#redes-social img:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #fff;
+      
 }
